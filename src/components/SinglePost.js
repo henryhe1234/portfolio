@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default SinglePost = ()=>{
+export default function SinglePost(){
   return <h1>SinglePost page!</h1>
 }
