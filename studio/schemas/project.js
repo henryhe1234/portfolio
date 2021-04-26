@@ -18,7 +18,15 @@ export default{
     },
     {
       name:"description",
-      type:"blockContent"
+      type: 'array',
+      of: [
+        {
+          title: 'Block',
+          type: 'block',
+          styles: [{title: 'Normal', value: 'normal'}],
+          lists: [],
+        },
+      ],
     },
     {
       name:"projectType",
