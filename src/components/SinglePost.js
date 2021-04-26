@@ -30,7 +30,9 @@ export default function SinglePost() {
       "authorImage":author->image
     }`
       )
-      .then((data) => setSinglePost(data[0]))
+      .then((data) => {
+        console.log(data);
+        setSinglePost(data[0])})
       .catch(console.error);
   }, [slug]);
   if (!singlePost) return <div>Loading...</div>;
