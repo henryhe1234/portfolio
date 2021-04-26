@@ -16,8 +16,21 @@ export default{
       name:"place",
       type:"string"
     },
+    // {
+    //   name:"description",
+    //   type: 'array',
+    //   of: [
+    //     {
+    //       title: 'Block',
+    //       type: 'block',
+    //       styles: [{title: 'Normal', value: 'normal'}],
+    //       lists: [],
+    //     },
+    //   ],
+    // },
     {
-      name:"description",
+      name: 'description',
+      title: 'description',
       type: 'array',
       of: [
         {
