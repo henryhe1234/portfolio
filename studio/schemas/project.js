@@ -18,7 +18,7 @@ export default{
     },
     {
       name:"description",
-      type:"text"
+      type:"blockContent"
     },
     {
       name:"projectType",
