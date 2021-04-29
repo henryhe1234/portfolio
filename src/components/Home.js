@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../background.jpg";
 export default function Home() {
+  console.log("Hello")
   return (
     <main>
       <img
